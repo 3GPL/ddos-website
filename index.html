@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Host Continuously</title>
+
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- HTML Content -->
+    <div class="container">
+        <h1>Ping Host Continuously</h1>
+        <p>Enter the host (URL) you want to ping below:</p>
+        
+        <input type="text" id="host-input" placeholder="Enter the host URL (e.g., https://example.com)">
+        <button onclick="startPinging()">Start Pinging</button>
+
+        <p>This will continuously ping the entered host without delay.</p>
+
+        <!-- Alert message -->
+        <p id="alert" class="alert"></p>
+
+        <!-- Output log -->
+        <div id="output" class="output"></div>
+    </div>
+
+    <!-- Link to external JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
